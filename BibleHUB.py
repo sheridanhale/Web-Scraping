@@ -27,6 +27,6 @@ for verse in page_verses:
     verse_list = verse.text.split('.')
 
 
-myverse = 'Chatper: ' + str(num) + ' Verse:' + random.choice(verse_list[:len(verse_list)])
+myverse = 'Chapter: ' + str(num) + ' Verse:' + random.choice(verse_list[:len(verse_list)])
 
 print(myverse)
